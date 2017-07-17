@@ -1,0 +1,19 @@
+﻿head
+    title URL SHORTENER
+    link(href='stylesheets/main.css' ,rel='stylesheet',type='text/css')
+body
+  h1(class='heading') URL SHORTENER MICROSERVICE
+  p(class = 'introduction') Url shortener microservice can shorten a larger url to smaller form to be easily accessed or to reduce the size of storage in another db
+  h3(class = 'heading-use') HOW TO USE
+  ul
+    li
+        p(class='send-data') Pass the url that has to be shortened after the index url in the following syntax <br/> 
+        code homeurl/shorten/url to shorten <br/>
+        p(class ='example') Example : 
+        code localhost:3000/shorten/google.com
+        p(class='return') returns
+        code {<br/>url:localhost:3000/12<br/>}
+    li
+        p(class='access-data') To access the original url in the above case , access the page with the following syntax: <br/>
+        code homeurl/code <br/>
+        
