@@ -7,7 +7,7 @@ MongoClient.connect("mongodb://crespoter:blantest@ds157112.mlab.com:57112/crespo
         console.log(err);
     db = database;
     app.listen(process.env.PORT, () => {
-        console.log("listening to port " + process.env.PORT | 3000);
+        console.log("listening to port "+ process.env.PORT | 3000);
     });
 });
 var app = express();
